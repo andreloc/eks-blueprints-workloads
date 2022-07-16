@@ -17,7 +17,7 @@ spec:
     - host: #skiapp.{{ .Values.spec.ingress.host }}
       http:
         paths:
-          - path: /
+          - path: /skiapp
             pathType: Prefix
             backend:
               service:
